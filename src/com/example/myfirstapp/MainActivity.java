@@ -1,11 +1,13 @@
 package com.example.myfirstapp;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
 
+// I have started the change of the file...
 public class MainActivity extends Activity {
 
     @Override
@@ -23,7 +25,7 @@ public class MainActivity extends Activity {
     
     /** Called when the user clicks the Send button */
     public void sendMessage(View view) {
-        // Do something in response to button
+    	//Intent intent = new Intent(this, DisplayMessageActivity.class);
     }
 
     
